@@ -15,9 +15,10 @@ def makeTurtles(number):
 
 def move_and_color_turtle(nmb_turtles):
     """Asks user for a color for each turtle and then moves each turtle to random x y on the map."""
-    """Turtle with highest y coordinate wins the race"""make
+    """Turtle with highest y coordinate wins the race"""
 
     for turtle in nmb_turtles:
+        turtle.shape("turtle")
         color = raw_input("What color would you like your turtle?")
         turtle.color(color)
         turtle.goto(random.random() * 180, random.random() * 180)
