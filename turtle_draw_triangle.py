@@ -2,7 +2,7 @@ import turtle
 
 
 def drawTriangle(t, sz):
-    """Make turtle t draw a square of sz."""
+    """Make turtle t draw a triangle of sz."""
 
     for i in range(3):
         t.foward(sz)
