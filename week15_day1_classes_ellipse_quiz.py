@@ -1,5 +1,19 @@
 import math
 
+
+# Question 6 
+
+# Write a Python class to represent an Ellipse centered at the origin. An ellipse located at the point (0,0) in the Cartesian coordinate system can be uniquely identified by its semi-major, a and semi-minor axis, b. In your class include the following:
+
+# an initializer 
+# all the accessors 
+# all the mutators 
+# provide a method to return the area (Links to an external site.)Links to an external site. of the ellipse 
+# facilitate a way to give the shape type "Ellipse" for all the ellipses you create
+# facilitate a way to count all the   Ellipse object that has been created
+
+
+
 class Ellipse:
 
     shape_type = "Ellipse"
