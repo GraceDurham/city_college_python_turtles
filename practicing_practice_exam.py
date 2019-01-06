@@ -279,6 +279,83 @@ print(str_rotation("Grace", 3))
 
 
 
+def sumTo(a1, d, n):
+	"""Return the sum of a1 is inital term, """
+
+
+	counter = 0
+	sums = 0
+	current_term = a1
+
+	while counter < n:
+		sums = sums + current_term
+		print(current_term)
+		current_term = current_term + d
+		counter = counter + 1
+	return sums
+
+print(sumTo(2,3,50))
+
+
+
+def p_odds(num1, num2):
+	"""Return the odd numbers between two numbers"""
+	array = []
+	while num1 < num2:
+		if (num1 % 2 != 0):
+			array.append(num1)
+		num1 = num1 + 1
+	return array
+
+
+print(p_odds(5,10))
+
+
+import random
+import turtle
+
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+
+for i in range(100):
+	x = int(random.random() * 360)
+	y = int(random.random() * 360)
+	alex.goto(x,y)
+	alex.goto(0,0)
+wn.exitonclick()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
